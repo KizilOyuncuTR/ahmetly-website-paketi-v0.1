@@ -1,2 +1,2 @@
 # ahmetly-website-paketi-v0.1
-Kendi Adınıza Satmak Yada Göstermek Düzenlemek Yasaktır Telif Haklarına Sahibim Bilginize
+Kendi Adınıza Satmak,göstermek yasaktır kendinize göre değiştirebilirsiniz Telif Haklarına Sahibim Bilginize
