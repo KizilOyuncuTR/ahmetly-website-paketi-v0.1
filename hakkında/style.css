@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+nav {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;
+    z-index: 2;
+}
+
+nav a {
+    color: #1e212d;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 18px;
+    padding: 12px 12px;
+    transition: .3s;
+}
+
+nav a:hover {
+    background-color: #b68973;
+}
+
+.gorsel {
+    height: 100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bant {
+    height: 70%;
+    background-color: lightgreen;
+}
+
+#gor1 {
+    background: white;
+    ;
+}
+
+#gor2 {
+    background: white;
+}
+
+.anasayfa {
+    position: absolute;
+    float: left;
+}
+
+.anayazı {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.anayazı h1 {
+    font-family: r;
+    font-size: 74px;
+    color: #b68973;
+    font-family: 'Cabin', sans-serif;
+    user-select: none;
+}
+
+.anayazı p {
+    color: #1e212d;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.anayazı p b {
+    color: black;
+}
+
+.anayazı span {
+    color: #fff;
+    padding: 10px 10px;
+    background-color: #b68973;
+    font-size: 20px;
+    border: 1px solid #1e212d;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+    user-select: none;
+}
+
+.anayazı span:hover {
+    background-color: #eabf9f;
+    color: #1e212d;
+    cursor: pointer;
+}
+
+.anafiltre {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.20;
+    z-index: 0;
+}
+
+#bant1 {
+    background-color: #CCC;
+}
+
+#bant1 h1 {
+    position: absolute;
+    font-size: 50px;
+    color: orange;
+    font-family: 'Cabin', sans-serif;
+    left: 10%;
+    margin-top: 4%;
+}
+
+#bant1 .bir {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    left: 8%;
+    margin-top: 12%;
+}
+
+#bant2 {
+    height: 20%;
+    background-color: #1e212d;
+}
+
+#ara {
+    height: 98%;
+}

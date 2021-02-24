@@ -1,0 +1,1971 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.98);
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.container {
+    background: #f7f6e7;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.container .navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #e7e6e1
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    color: #314e52;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.8px;
+    line-height: 80px;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.navbar ul li a {
+    color: #314e52;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Oswald', sans-serif;
+    transition: .5s;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: #f2a154;
+    border-radius: 2px;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.center h1 {
+    color: #314e52;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.center h2 {
+    color: #314e52;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.center .buttons {
+    margin: 35px 280px;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #314e52;
+    background-color: #e7e6e1;
+    border: solid 1px #314e52;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+    ;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+.buttons button:hover {
+    background-color: #f2a154;
+}
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
+
+
+/*Bu Css Dosyası
+ Ahmet Bilal 
+ Tarafından 
+ Yapılmıştır*/
